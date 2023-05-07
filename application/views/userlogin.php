@@ -41,7 +41,13 @@ if (empty($notice)) {
                                 <div class="loginbg">
                                     <div class="form-top">
                                         <div class="form-top-left logowidth">
-                                            <img src="<?php echo base_url(); ?>uploads/school_content/admin_logo/<?php echo $this->setting_model->getAdminlogo();?>" />
+                                        <h1>
+                                                <b>
+
+                                                    Campus-Hive
+                                                </b>
+                                            </h1> 
+                                        <!-- <img src="<?php echo base_url(); ?>uploads/school_content/admin_logo/<?php echo $this->setting_model->getAdminlogo();?>" /> -->
                                         </div>
                                     </div>
                                     <div class="form-bottom">
@@ -90,12 +96,13 @@ if ($this->session->flashdata('message')) {
 
                                 
                                         <p><a href="<?php echo site_url('site/ufpassword') ?>" class="forgot"> <i class="fa fa-key"></i> <?php echo $this->lang->line('forgot_password'); ?></a> </p> 
+                                        <p><a href="<?php echo site_url('site/login') ?>" class="forgot">  <?php echo $this->lang->line('Admin'); ?> Are you institute staff </a> </p> 
                                 
                                     </div>
                                 </div>
                             </div>
                             
-                            <div class="col-lg-8 col-md-8 col-sm-12 nopadding-2">
+                            <!-- <div class="col-lg-8 col-md-8 col-sm-12 nopadding-2">
                                  <div class="d-flex align-items-center text-wrap flex-column justify-content-center bg-position-sm-left bg-position-lg-center" style="background: url('<?php echo base_url(); ?>uploads/school_content/login_image/<?php echo $school['user_login_page_background']; ?>') no-repeat; background-size:cover"> 
                             <div class="<?php if ($notice){ ?> bg-shadow-remove <?php } ?>">        
                                  <?php
@@ -138,8 +145,9 @@ $string = ($notice_value['description']);
 }
 ?>  
                                     
-                                    
-                                </div><!--./col-lg-6-->
+                                </div>
+                                     -->
+                                <!--./col-lg-6-->
                             </div>
                         </div> 
                         </div>

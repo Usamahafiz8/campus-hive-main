@@ -112,8 +112,29 @@ if ($this->config->item('SSLK') == "") {
 
             <header class="main-header" id="alert">
                 <a href="<?php echo base_url(); ?>admin/admin/dashboard" class="logo">
-                    <span class="logo-mini"><img src="<?php echo $this->customlib->getBaseUrl(); ?>uploads/school_content/admin_small_logo/<?php echo $this->setting_model->getAdminsmalllogo() . img_time();?>" alt="<?php echo $this->customlib->getAppName() ?>" /></span>
-                    <span class="logo-lg"><img src="<?php echo $this->customlib->getBaseUrl(); ?>uploads/school_content/admin_logo/<?php echo $this->setting_model->getAdminlogo() . img_time();?>" alt="<?php echo $this->customlib->getAppName() ?>" /></span>
+                    <span class="logo-mini">
+                    <span >
+                        <b style='color:#ff914d;' > C</b><b style='color:#f43131;' >H</b>
+                        </span >
+                        <!-- <img src="<?php echo $this->customlib->getBaseUrl(); ?>uploads/school_content/admin_small_logo/<?php echo $this->setting_model->getAdminsmalllogo() . img_time();?>" alt="<?php echo $this->customlib->getAppName() ?>" /> -->
+                    </span>
+                    <span class="logo-lg">
+                        <span >
+                        <b style='color:#ff914d;' >
+                                Campus
+                            </b>
+                             <b style='color:black;'>
+
+                                 -
+                                </b>
+                             <b style='color:#f43131;' >
+                                
+                                Hive
+                            </b>
+                        </span >
+                        <!-- <img src="<?php echo $this->customlib->getBaseUrl(); ?>uploads/school_content/admin_logo/<?php echo $this->setting_model->getAdminlogo() . img_time();?>" alt="<?php echo $this->customlib->getAppName() ?>" />
+                    -->
+                </span>
                 </a>
                 <nav class="navbar navbar-static-top" role="navigation">
                     <a onclick="collapseSidebar()"  class="sidebar-toggle" data-toggle="offcanvas" role="button">

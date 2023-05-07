@@ -39,7 +39,13 @@
                                 <div class="loginbg">  
                                    <div class="form-top">
                                         <div class="form-top-left logowidth">
-                                            <img src="<?php echo base_url(); ?>uploads/school_content/admin_logo/<?php echo $this->setting_model->getAdminlogo(); ?>" />    
+                                            <!-- <img src="<?php echo base_url(); ?>uploads/school_content/admin_logo/<?php echo $this->setting_model->getAdminlogo(); ?>" />     -->
+                                            <h1>
+                                                <b>
+
+                                                    Campus-Hive
+                                                </b>
+                                            </h1>
                                         </div>
                                     </div>
                                     <div class="form-bottom">
@@ -88,11 +94,17 @@
                                             <button type="submit" class="btn"><?php echo $this->lang->line('sign_in'); ?></button>
                                         </form>
                                         <a href="<?php echo site_url('site/forgotpassword') ?>" class="forgot"><i class="fa fa-key"></i> <?php echo $this->lang->line('forgot_password'); ?>?</a>
+                                        <!-- this is a link to go for the student panel and parent panel side  -->
+                                        &nbsp;&nbsp;&nbsp;<p>
+
+                                            <a href="<?php echo site_url('site/userlogin') ?>" class="forgot">
+                                                <?php echo $this->lang->line(''); ?>Are you student / parent </a>
+                                            </p>
                                     </div>
                                 </div>
                             </div>
                             
-                                <div class="col-lg-8 col-md-8 col-sm-12 nopadding-2">
+                                <!-- <div class="col-lg-8 col-md-8 col-sm-12 nopadding-2">
                                    <div class="d-flex align-items-center text-wrap flex-column justify-content-center bg-position-sm-left bg-position-lg-center" style="background: url('<?php echo base_url(); ?>uploads/school_content/login_image/<?php echo $school['admin_login_page_background']; ?>') no-repeat; background-size:cover">  
                                     <div class="<?php if ($notice){ ?> bg-shadow-remove <?php } ?>">
                                     <?php
@@ -135,7 +147,8 @@
                                     ?>
                                   </div>  
                                   </div>  
-                                </div><!--./col-lg-6-->
+                                </div> -->
+                                <!--./col-lg-6-->
                                 
                         </div>  
                     </div>
