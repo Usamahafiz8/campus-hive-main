@@ -73,7 +73,8 @@ $this->load->view('layout/theme');
     </head>
     <body class="hold-transition skin-blue fixed sidebar-mini">
 
- <?php
+<!-- this  code is commit and have to set the code in future: sonia -->
+<!-- <?php
 if ($this->config->item('SSLK') == "") {
     ?>
  <div class="topaleart">
@@ -85,7 +86,7 @@ if ($this->config->item('SSLK') == "") {
                     <?php
 }
 
-?>
+?> -->
 <script>
 
     function collapseSidebar() {

@@ -1,4 +1,7 @@
-<div id="activelicmodal" class="modal fade">
+<!-- this  code is commit and have to set the code in future:  sonia -->
+
+
+<!-- <div id="activelicmodal" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -31,4 +34,4 @@
             </form>
         </div>
     </div>
-</div>
+</div> -->
